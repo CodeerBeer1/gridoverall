@@ -1,0 +1,185 @@
+/*
+COLUMNS
+ROWS
+*/
+@font-face {
+	font-family: 'Lato';
+	src: url(fonts/Lato-Black.ttf);
+}
+.grid-container {
+	display: grid;
+	grid-template-columns:69px 69px 69px 69px 69px 69px 69px 69px 69px 69px 69px 69px 69px 69px;
+	grid-template-rows:69px 69px 69px 69px 69px 69px 69px 69px 69px 69px 69px 69px 69px 69px 69px 69px;
+	grid-gap: 10px;
+	width: 1100px;
+	margin: 0px auto;
+	font-family: Lato;
+	font-size: 20px;
+	color: #142952;
+}
+.header {
+	grid-area: 1/1/3/15;
+	display: grid;
+	grid-template-columns: 157px 157px 157px 157px 157px 157px 157px;
+	grid-template-rows: 40px 40px 40px;
+	background-image: url(img/header_bg.png);
+}
+.logo {
+	width: 314px;
+	height: 120px;
+}
+.navbar {
+	grid-area: 2/3/4/8;
+	display: inline;
+
+}
+li {
+	list-style: none;
+	float: left;
+	padding-left: 30px;
+	
+}
+.banner {
+	display: grid;
+	grid-area: 3/1/9/15;
+	grid-template-columns: 55px 55px 55px 55px 55px 55px 55px 55px 55px 55px 55px 55px 55px 55px 55px 55px 55px 55px 55px 55px;
+	grid-template-rows: 48px 48px 48px 48px 48px 48px 48px 48px ;	
+	background-image: url(img/banner_bg.png);
+	height: 425px;
+}
+.groteman {
+	grid-area: 2/2;
+	height: 300px;
+	width: 650px;
+}
+.businesstitle {
+	grid-area: 2/15/3/19;
+	color: white;
+	font-size: 26px;
+}
+.businesstext {
+	grid-area: 3/15/8/19;
+	color: white;
+	font-size: 20px;
+}
+.onderkant {
+	display: grid;
+	grid-area: 9/2/16/14;
+	grid-template-columns: 156px 156px 156px 156px 156px 156px;
+	grid-template-rows: 136px 136px 136px 136px;
+}
+.fade {
+	grid-area: 1/1;
+}
+.nivo {
+	grid-area: 1/3;
+	padding-left: 20px;
+}
+.bonus {
+	grid-area: 1/5;
+	padding-left: 40px;
+}
+.fadetitle {
+	grid-area: 2/1/3/3;
+	font-size: 20px;
+	padding-top: 20px;
+	height: 30px;
+}
+.nivotitle {
+	grid-area: 2/3/3/5;
+	font-size: 20px;
+	padding-top: 20px;
+	height: 30px;
+}
+.bonustitle {
+	grid-area: 2/5/3/7;
+	font-size: 20px;
+	padding-top: 20px;
+	height: 30px;
+}
+.fadetext {
+	grid-area: 2/1/5/3;
+	font-size: 15px;
+	padding-top: 100px;
+	padding-right: 40px;
+	height: 100px;
+}
+.nivotext {
+	grid-area: 2/3/5/5;
+	font-size: 15px;
+	padding-top: 100px;
+	padding-right: 40px;
+	height: 100px;
+}
+.bonustext {
+	grid-area: 2/5/5/7;
+	font-size: 15px;
+	padding-top: 100px;
+	padding-right: 40px;
+	height: 100px;
+}
+.footer {
+	grid-area: 16/1/17/15;
+	background-image: url(img/footer_bg.png);
+	color: white;
+	font-size: 15px;
+	text-align: center;
+}
+.homelink {
+	color: #142952;
+	text-decoration: none;
+}
+.autolink {
+	color: #142952;
+	text-decoration: none;
+}
+.kledinglink {
+	color: #142952;
+	text-decoration: none;
+}
+
+.jas1 {
+	grid-area: 2/3;
+	width: 330px;
+}
+.jas2 {
+	grid-area: 2/13/8/21;
+	height: 330px;
+	width: 330px;\
+}
+.kortingtextdiv {
+	grid-area: 2/1/6/21;
+	font-size: 30px;
+	text-align: center;
+	color: red;
+}
+.autos {
+	background-image: url(img/banner_bg.png);
+	grid-area: 3/1/9/15;
+}
+.mclaren {
+	grid-area: 2/2;
+	width: 300px;
+	height: 150px;
+}
+.lambo {
+	grid-area: 2/8/5/15;
+	width:300px;
+	height:150px;
+	padding-left: 20px;
+	
+}
+.koen {
+	grid-area: 2/14/5/19;
+	width: 300px;
+	height: 150px;
+	padding-left: 30px;
+}
+.autotext {
+	grid-area: 5/1/7/15;
+	font-size: 30px;
+	text-align: center;
+}
+a:hover {
+	color: lightgrey;
+}
